@@ -1,0 +1,14 @@
+name: spigot-dependency-loader
+version: 1.0.1
+api-version: 1.19
+description: Simple dependency loader for spigot server
+website: github.com/avionik-world
+authors:
+  - Avionik
+  - MrManHD
+
+main: world.avionik.dependencyloader.plugin.SpigotPlugin
+
+commands:
+  dependencies:
+    permission: dependencyloader.command.dependencies
